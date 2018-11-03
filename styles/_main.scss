@@ -1,0 +1,263 @@
+.test{
+	background: #000000;
+}
+
+body {
+	
+}
+
+.buttonJob{
+	color: #3a6463;
+	
+}
+
+.headBack{
+	background-color: #30383a;
+	padding: 50px 0;
+    text-align: center;
+}
+
+.fontHead{
+	font-size: x-large;
+	color: #ffffff;
+}
+
+.backMenu{
+	background-color: #589898;
+	
+}
+
+.menu:hover{
+	color: #589898;
+	cursor: pointer;
+	background-color: #ffffff;
+	
+}
+
+.fontMenu{
+	color: #ffffff;
+	font-size: 1em;
+	padding: 15px 0;
+    text-align: center;
+}
+
+.backCard{
+	background-color: #3a6463;
+}
+
+.fontCard{
+	color: #ffffff;
+}
+
+.spanPrivacy:hover{
+	color: #589898;
+}
+
+.jobCard{
+	display: unset;
+}
+
+.jobSlide{
+	display: none;
+}
+
+.skillCard{
+	display: none;
+}
+.skillTable{
+	display: unset;
+}
+
+.menuBerger{
+	display: none;
+}
+
+.menuMain{
+	display: unset;
+}
+
+.privacyFull{
+	display: none;
+}
+
+.privacyHalf{
+	display: unset;
+}
+
+/*span:hover{
+	color: brown;
+	cursor: pointer;
+	background-color: #000000;
+}*/
+@media (min-width: 300px) and (max-width: 414px){
+	.jobCard{
+		display: none;
+	}
+	.jobSlide{
+		display: unset;
+	}
+
+	.skillCard{
+		display: unset;
+	}
+	.skillTable{
+		display: none;
+	}
+
+	.menuBerger{
+		display: unset;
+	}
+
+	.menuMain{
+		display: none;
+	}
+
+	.fontHead{
+		font-size: large;
+		color: #ffffff;
+	}
+
+	.privacyFull{
+		display: none;
+	}
+
+	.privacyHalf{
+		display: unset;
+	}
+
+	.headBack{
+		background-color: #30383a;
+		padding: 30px 0;
+		text-align: left;
+	}
+
+	.editImg{
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	.fontPrivacyHalf{
+		font-size: small;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.collapse:not(.show) {
+		display: unset !important;
+	}
+
+	.jobCard{
+		display: unset;
+	}
+
+	.jobSlide{
+		display: none;
+	}
+
+	.skillCard{
+		display: unset;
+	}
+	.skillTable{
+		display: none;
+	}
+
+	.menuBerger{
+		display: none;
+	}
+
+	.menuMain{
+		display: unset;
+	}
+
+	.fontHead{
+		font-size: xx-large;
+		color: #ffffff;
+	}
+
+	.privacyFull{
+		display: unset;
+	}
+
+	.privacyHalf{
+		display: none;
+	}
+
+	.headBack{
+		background-color: #30383a;
+		padding: 50px 0;
+		text-align: left;
+	}
+
+}
+
+// .jobCard{
+// 	display: unset;
+// }
+
+// .jobSlide{
+// 	display: none;
+// }
+
+.flex-text{
+	//height: 4em;
+}
+
+.marginCard{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+	right: 0px;
+	position: relative;
+	width: 30px;
+	height: 24px;
+	left: 250px;
+	top: 50px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+	background: #3a6463;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+	height: 24px;
+	width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+	background: #bdc3c7;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+	background: #373a47;
+	padding: 2.5em 1.5em 0;
+	font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+	fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+	color: #b8b7ad;
+	padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+	display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+	background: rgba(0, 0, 0, 0.3);
+  }
